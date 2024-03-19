@@ -4,7 +4,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { database, backend, frontend, others } from "@/utils/getTecnologies";
+import { database, backend, frontend, others } from "@/db/getTecnologies";
 import Image from "next/image";
 import classes from "./technologies.module.css";
 export default function Technologies() {

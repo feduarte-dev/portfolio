@@ -3,8 +3,10 @@ import styles from "./page.module.css";
 import Header from "@/components/header/Header";
 import Logo from "@/components/logo/Logo";
 import About from "@/components/about/About";
-import Spacer from "@/components/separator/spacer";
+import Spacer from "@/components/spacer/spacer";
 import Technologies from "@/components/technologies/Technologies";
+import Projects from "@/components/projects/Projects";
+
 
 export default function Home() {
   return (
@@ -15,6 +17,9 @@ export default function Home() {
       <Spacer/>
       <Technologies/>
       <Spacer/>
+      <Projects/>
+      <Spacer/>
+
     </>
   );
 }
