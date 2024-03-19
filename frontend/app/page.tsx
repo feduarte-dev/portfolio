@@ -4,6 +4,7 @@ import Header from "@/components/header/Header";
 import Logo from "@/components/logo/Logo";
 import About from "@/components/about/About";
 import Spacer from "@/components/separator/spacer";
+import Technologies from "@/components/technologies/Technologies";
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
       <Logo/>
       <Header/>
       <About/>
+      <Spacer/>
+      <Technologies/>
       <Spacer/>
     </>
   );
