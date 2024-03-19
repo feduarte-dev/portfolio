@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Header from "@/components/header/Header";
 import Logo from "@/components/logo/Logo";
 import About from "@/components/about/About";
+import Spacer from "@/components/separator/spacer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Logo/>
       <Header/>
       <About/>
+      <Spacer/>
     </>
   );
 }
