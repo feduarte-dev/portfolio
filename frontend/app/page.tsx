@@ -2,12 +2,14 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Header from "@/components/header/Header";
 import Logo from "@/components/logo/Logo";
+import About from "@/components/about/About";
 
 export default function Home() {
   return (
     <>
       <Logo/>
       <Header/>
+      <About/>
     </>
   );
 }
