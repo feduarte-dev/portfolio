@@ -1,10 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Header from "@/components/header/Header";
+import Logo from "@/components/logo/Logo";
 
 export default function Home() {
   return (
-   <Header/>
+    <>
+      <Logo/>
+      <Header/>
+    </>
   );
 }
 

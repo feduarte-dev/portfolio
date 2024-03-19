@@ -1,0 +1,13 @@
+.headerContainer {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .headerName {
+    padding-right: 40px;
+  }
+  
+  .headerJob {
+    padding-left: 40px;
+  }
+  
