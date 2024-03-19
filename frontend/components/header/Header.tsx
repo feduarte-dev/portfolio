@@ -4,10 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import classes from './header.module.css'
 
 export default function Header() {
   return (
-     <Navbar collapseOnSelect expand="lg" data-bs-theme='dark' bg='dark'>
+     <Navbar collapseOnSelect expand="lg" data-bs-theme='dark' className={classes.navBarContainer}>
       <Container>
         <Navbar.Brand href="/">Felipe Duarte</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

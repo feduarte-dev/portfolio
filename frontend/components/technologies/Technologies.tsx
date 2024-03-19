@@ -11,10 +11,10 @@ export default function Technologies() {
   return (
     <Container>
       <h3>Technologies</h3>
-      <Row>
         <h4>Front end</h4>
+      <Row xs={2} lg={4}>
         {frontend.map((tech) => (
-          <Col key={tech.title}>
+          <Col key={tech.title} >
             <div className={classes.techContainer}>
               <Image src={tech.image} alt={tech.title} />
               <span>{tech.title}</span>
@@ -22,8 +22,8 @@ export default function Technologies() {
           </Col>
         ))}
       </Row>
-      <Row>
         <h4>Back end</h4>
+      <Row xs={2} lg={4}>
         {backend.map((tech) => (
           <Col key={tech.title}>
             <div className={classes.techContainer}>
@@ -33,10 +33,10 @@ export default function Technologies() {
           </Col>
         ))}
       </Row>
-      <Row>
         <h4>Database</h4>
+      <Row xs={2} lg={4}>
         {database.map((tech) => (
-          <Col key={tech.title}>
+          <Col key={tech.title} >
             <div className={classes.techContainer}>
               <Image src={tech.image} alt={tech.title} />
               <span>{tech.title}</span>
@@ -44,8 +44,8 @@ export default function Technologies() {
           </Col>
         ))}
       </Row>
-      <Row>
         <h4>Others</h4>
+           <Row xs={2} lg={4}>
         {others.map((tech) => (
           <Col key={tech.title}>
             <div className={classes.techContainer}>
