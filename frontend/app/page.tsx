@@ -6,7 +6,7 @@ import About from "@/components/about/About";
 import Spacer from "@/components/spacer/spacer";
 import Technologies from "@/components/technologies/Technologies";
 import Projects from "@/components/projects/Projects";
-
+import Contact from "@/components/contact/contact";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
       <Spacer/>
       <Projects/>
       <Spacer/>
-
+      <Contact/>
     </>
   );
 }

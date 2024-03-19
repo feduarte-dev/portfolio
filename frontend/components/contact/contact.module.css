@@ -1,0 +1,9 @@
+.contactContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contactContainer img {
+  width: 68px;
+  height: 68px;
+}
