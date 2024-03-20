@@ -12,7 +12,7 @@ export default function Technologies() {
     <Container>
       <h3>Technologies</h3>
         <h4>Front end</h4>
-      <Row xs={2} lg={4}>
+      <Row xs={2} lg={4} className={classes.techsContainer}>
         {frontend.map((tech) => (
           <Col key={tech.title} >
             <div className={classes.techContainer}>
@@ -23,7 +23,7 @@ export default function Technologies() {
         ))}
       </Row>
         <h4>Back end</h4>
-      <Row xs={2} lg={4}>
+      <Row xs={2} lg={4} className={classes.techsContainer}>
         {backend.map((tech) => (
           <Col key={tech.title}>
             <div className={classes.techContainer}>
@@ -34,7 +34,7 @@ export default function Technologies() {
         ))}
       </Row>
         <h4>Database</h4>
-      <Row xs={2} lg={4}>
+      <Row xs={2} lg={4} className={classes.techsContainer}>
         {database.map((tech) => (
           <Col key={tech.title} >
             <div className={classes.techContainer}>
@@ -45,7 +45,7 @@ export default function Technologies() {
         ))}
       </Row>
         <h4>Others</h4>
-           <Row xs={2} lg={4}>
+           <Row xs={2} lg={4} className={classes.techsContainer}>
         {others.map((tech) => (
           <Col key={tech.title}>
             <div className={classes.techContainer}>

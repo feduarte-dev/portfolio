@@ -1,5 +1,5 @@
-import Header from "@/components/header/Header";
 import Logo from "@/components/logo/Logo";
+import Header from "@/components/header/Header";
 import About from "@/components/about/About";
 import Spacer from "@/components/spacer/spacer";
 import Technologies from "@/components/technologies/Technologies";

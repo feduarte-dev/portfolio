@@ -15,7 +15,7 @@ export default function About() {
             Hi there! I am a Brazilian guy with almost two years of experience in software development. Before that, I worked as a personal trainer for 8 years and decided to change careers after getting my specialization degree. I love to challenge myself by solving logic questions and developing APIs for everything.
           </p>
         </Col>
-        <Col>
+        <Col className={classes.pictureGrid}>
           <div className={classes.imgContainer}>
             <Image
               className={classes.profileImg}

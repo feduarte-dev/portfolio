@@ -12,8 +12,7 @@ export default function ContactC() {
   return (
     <>
       <Container>
-        <h1>Contact</h1>
-
+        <h3>Contact</h3>
         <div className={classes.contactContainer}>
           <a href='https://www.linkedin.com/in/feduarte-dev/' target='_blank'>
             <Image src={linkedin} alt='Linkedin contact'></Image>

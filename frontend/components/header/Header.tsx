@@ -8,7 +8,7 @@ import classes from './header.module.css'
 
 export default function Header() {
   return (
-     <Navbar collapseOnSelect expand="lg" data-bs-theme='dark' className={classes.navBarContainer}>
+     <Navbar collapseOnSelect expand="lg" sticky='bottom' data-bs-theme='dark' className={classes.navBarContainer}>
       <Container>
         <Navbar.Brand href="/">Felipe Duarte</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -20,7 +20,7 @@ export default function Header() {
               <Nav.Link href='/'>Contact</Nav.Link>
           </Nav>
           <Nav>
-          <NavDropdown title='Resume' id='collapsible-nav-dropdown'>
+          <NavDropdown title='Resume' id='collapsible-nav-dropdown'  className={classes.navBarContainer}>
                 <NavDropdown.Item
                   href='public/resumes/Felipe Duarte - Resume - en.pdf'
                   download='felipe-duarte-resume-us.pdf'

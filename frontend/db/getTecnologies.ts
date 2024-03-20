@@ -13,42 +13,60 @@ import javascript from "@/assets/technologies/javascript.png";
 import tailwind from "@/assets/technologies/tailwind.png";
 import scrum from "@/assets/technologies/scrum.png";
 import mysql from "@/assets/technologies/mysql.png";
+import chai from "@/assets/technologies/chai.png";
+import rtl from "@/assets/technologies/rtl.png";
+import kanban from "@/assets/technologies/kanban.png";
+import jest from "@/assets/technologies/jest.png";
+import sinon from "@/assets/technologies/sinon.png";
+import mocha from "@/assets/technologies/mocha.svg";
+import jwt from "@/assets/technologies/jwt.svg";
+import sequelize from "@/assets/technologies/sequelize.png";
+import redux from "@/assets/technologies/redux.png";
+import postgresql from "@/assets/technologies/postgresql.png";
+import git from "@/assets/technologies/git.svg";
 
 export const frontend = [
-  {
-    image: css,
-    title: "CSS",
-  },
-  {
-    image: html,
-    title: "HTML",
-  },
-  {
-    image: next,
-    title: "Next.js",
-  },
-
   {
     image: react,
     title: "React.js",
   },
   {
-    image: typescript,
-    title: "Typescript",
+    image: redux,
+    title: "Redux",
   },
   {
-    image: bootstrap,
-    title: "Bootstrap",
+    image: next,
+    title: "Next.js",
+  },
+  {
+    image: html,
+    title: "HTML",
+  },
+
+  {
+    image: css,
+    title: "CSS",
   },
 
   {
     image: javascript,
     title: "Javascript",
   },
-
+  {
+    image: bootstrap,
+    title: "Bootstrap",
+  },
   {
     image: tailwind,
     title: "Tailwind",
+  },
+  {
+    image: rtl,
+    title: "RTL",
+  },
+  {
+    image: jest,
+    title: "Jest",
   },
 ];
 
@@ -66,8 +84,28 @@ export const backend = [
     title: "Django",
   },
   {
+    image: typescript,
+    title: "Typescript",
+  },
+  {
     image: express,
     title: "Express",
+  },
+  {
+    image: mocha,
+    title: "Mocha",
+  },
+  {
+    image: sinon,
+    title: "Sinon",
+  },
+  {
+    image: chai,
+    title: "Chai",
+  },
+  {
+    image: jwt,
+    title: "JWT",
   },
 ];
 
@@ -76,9 +114,21 @@ export const database = [
     image: mysql,
     title: "MySQL",
   },
+  {
+    image: sequelize,
+    title: "Sequelize",
+  },
+  {
+    image: postgresql,
+    title: "PostgreSQL",
+  },
 ];
 
 export const others = [
+  {
+    image: git,
+    title: "Git",
+  },
   {
     image: docker,
     title: "Docker",
@@ -86,5 +136,9 @@ export const others = [
   {
     image: scrum,
     title: "Scrum",
+  },
+  {
+    image: kanban,
+    title: "Kanban",
   },
 ];

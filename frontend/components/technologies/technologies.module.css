@@ -12,7 +12,9 @@
   background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
 }
-
+.techsContainer {
+  margin-bottom: 40px;
+}
 .techContainer img {
   width: 40px;
   height: auto;

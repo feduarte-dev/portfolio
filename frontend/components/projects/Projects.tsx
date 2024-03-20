@@ -25,13 +25,13 @@ export default function Projects() {
               className={classes.projectCard}
             >
               <Col>
-                <Card>
+                <Card className={classes.cardContainer} data-bs-theme='dark'>
                   <Card.Img variant='top' src={project.image.src} />
                   <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.description}</Card.Text>
                   </Card.Body>
-                  <Card.Footer className='text-muted'>
+                  <Card.Footer>
                     {project.techs.map((tech, index) => (
                       <span key={index}>
                         {tech}
