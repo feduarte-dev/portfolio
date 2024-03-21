@@ -1,0 +1,26 @@
+.navBarContainer {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.navbarCollapse {
+  display: flex;
+  margin: auto;
+}
+
+.dropdownContainer {
+    background-color: rgba(0, 0, 0, 0);
+}
+@media (max-width: 600px) {
+  .navBarContainer {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logoImg {
+    width: auto;
+    height: auto;
+  }
+}

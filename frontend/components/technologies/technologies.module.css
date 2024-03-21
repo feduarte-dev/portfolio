@@ -1,0 +1,30 @@
+.techContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px;
+  margin: 5px 0;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+.techsContainer {
+  margin-bottom: 40px;
+}
+.techContainer img {
+  width: 40px;
+  height: auto;
+}
+
+.techContainer span {
+  font-size: larger;
+  padding-left: 10px;
+}
+
+.techContainer:hover {
+  transform: scale(1.1);
+}

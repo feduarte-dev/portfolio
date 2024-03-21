@@ -1,0 +1,29 @@
+.sectionContainer {
+  height: 600px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardContainer {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.projectCard {
+  text-decoration: none;
+}
+
+.loadBtn {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.loadBtn:hover {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: rgba(255, 255, 255, 0.3);
+}
