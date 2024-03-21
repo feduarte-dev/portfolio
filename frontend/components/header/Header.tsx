@@ -5,15 +5,17 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import classes from './header.module.css'
+import logo from "../../assets/header/logo.png";
+import Image from "next/image";
 
 export default function Header() {
   return (
-     <Navbar collapseOnSelect expand="lg" sticky='bottom' data-bs-theme='dark' className={classes.navBarContainer}>
-      <Container>
-        <Navbar.Brand href="/">Felipe Duarte</Navbar.Brand>
+    <Navbar collapseOnSelect expand="lg" sticky='bottom' data-bs-theme='dark' className={classes.navBarContainer}>
+      <Container className={classes.linksContainer}>
+       <Image src={logo} alt={"Logo"} className={classes.logoImg}/>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+        <Navbar.Collapse id="responsive-navbar-nav" >
+          <Nav className={`me-auto ${classes.navbarCollapse}`}>
               <Nav.Link href='/'>About</Nav.Link>
               <Nav.Link href='/'>Technologies</Nav.Link>
               <Nav.Link href='/'>Projects</Nav.Link>

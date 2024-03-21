@@ -1,13 +1,11 @@
 import { Container } from "react-bootstrap";
 import classes from "./logo.module.css";
-
+import logo from "../../assets/header/logo.png";
+import Image from "next/image";
 export default function Logo() {
   return (
     <Container className={classes.headerContainer}>
-      {/* <div className={classes.headerContainer}> */}
-        <h1 className={classes.headerName}>Felipe Duarte</h1>
-        <h3 className={classes.headerJob}>Software Developer</h3>
-      {/* </div> */}
+      <Image src={logo} alt={"Logo"} className={classes.logoImg}/>
     </Container>
   );
 }

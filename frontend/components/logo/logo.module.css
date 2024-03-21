@@ -1,13 +1,12 @@
 .headerContainer {
     padding: 20px 0;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
   }
-  
-  .headerName {
-    padding-right: 40px;
+  @media (max-width: 600px) {
+    .logoImg {
+      width: auto;
+      height: auto;
+    }
   }
-  
-  .headerJob {
-    padding-left: 40px;
-  }
-  
+
