@@ -21,8 +21,8 @@ export default function Header() {
               <Nav.Link href='/'>Projects</Nav.Link>
               <Nav.Link href='/'>Contact</Nav.Link>
           </Nav>
-          <Nav>
-          <NavDropdown title='Resume' id='collapsible-nav-dropdown'  className={classes.navBarContainer}>
+          <Nav >
+          <NavDropdown title='Resume' id='collapsible-nav-dropdown' className={classes.dropdownContainer} >
                 <NavDropdown.Item
                   href='public/resumes/Felipe Duarte - Resume - en.pdf'
                   download='felipe-duarte-resume-us.pdf'

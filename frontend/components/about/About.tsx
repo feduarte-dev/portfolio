@@ -11,7 +11,7 @@ export default function About() {
       <Row>
         <Col>
           <h3>About me</h3>
-          <p>
+          <p className={classes.aboutText}>
             Hi there! I am a Brazilian guy with almost two years of experience in software development. Before that, I worked as a personal trainer for 8 years and decided to change careers after getting my specialization degree. I love to challenge myself by solving logic questions and developing APIs for everything.
           </p>
         </Col>

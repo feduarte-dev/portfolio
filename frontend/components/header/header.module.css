@@ -9,6 +9,9 @@
   margin: auto;
 }
 
+.dropdownContainer {
+    background-color: rgba(0, 0, 0, 0);
+}
 @media (max-width: 600px) {
   .navBarContainer {
     background-color: rgba(0, 0, 0, 0.3);
