@@ -7,7 +7,7 @@ import classes from "./about.module.css";
 
 export default function About() {
   return (
-    <Container className={classes.profileContainer}>
+    <Container className={classes.profileContainer} id="about">
       <Row>
         <Col>
           <h3>About me</h3>

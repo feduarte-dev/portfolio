@@ -14,7 +14,7 @@ export default function Projects() {
   };
 
   return (
-    <Container>
+    <Container id="projects">
       <h3>Projects</h3>
       <div className={classes.sectionContainer}>
         <Row xs={1} md={2} className='g-4'>
