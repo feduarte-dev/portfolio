@@ -11,7 +11,7 @@ import Image from "next/image";
 export default function ContactC() {
   return (
     <>
-      <Container>
+      <Container id="contact">
         <h3>Contact</h3>
         <div className={classes.contactContainer}>
           <a href='https://www.linkedin.com/in/feduarte-dev/' target='_blank'>

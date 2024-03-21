@@ -9,7 +9,7 @@ import Image from "next/image";
 import classes from "./technologies.module.css";
 export default function Technologies() {
   return (
-    <Container>
+    <Container id="technologies">
       <h3>Technologies</h3>
         <h4>Front end</h4>
       <Row xs={2} lg={4} className={classes.techsContainer}>
